@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Test1">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="URL" value="https://google.com/"/>
+        <classes>
+            <class name="tests.Test_1"/>
+        </classes>
+
+    </test>
+    <test name="Test2">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="URL" value="https://google.com/"/>
+        <classes>
+            <class name="tests.Test_2"/>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="URL" value=" https://orangehrm-demo-6x.orangehrmlive.com"/>
+        <classes>
+            <class name="tests.Test_3"/>
+        </classes>
+
+    </test>
+</suite>
